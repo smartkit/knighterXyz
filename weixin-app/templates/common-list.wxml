@@ -1,0 +1,26 @@
+<template name="tempCommonList">
+
+  <view class="home-view1">
+    <block wx:key="id" wx:for="{{postsList}}">
+      <view class="list-item has-img" index="{{index}}" id="{{item.id}}" bindtap="redictDetail">
+        <view class="content-title">
+          <text>{{item.title.rendered}}</text>
+        </view>
+        <image src="{{item.post_thumbnail_image}}" mode="aspectFill" class="cover"></image>
+        <!--信息层-->
+        <view class="home-view4" >
+          <image class="home-image-heart" src="../../images/calendar.png"></image>
+          <text class="home-text-time" > {{item.date}}</text>
+          <image class="home-image-heart bgColor" src="../../images/comments.png"></image>
+          <text class="home-text-heart bgColor" > {{item.total_comments}}</text>
+        <image class="home-text-heart bgColor" > src="../../images/pageviews.png"></image>
+        <text class="home-text-time" >{{item.pageviews}}</text>
+        <image class="home-text-heart bgColor" src="../../images/home-like.png"></image>
+        <text class="home-text-time">{{item.like_count}}</text>
+      </view>
+      <!--分界线line-->
+     <view class="home-view-line"></view>
+      </view>
+    </block>
+  </view>  
+</template>
