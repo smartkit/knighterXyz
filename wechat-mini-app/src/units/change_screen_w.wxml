@@ -1,0 +1,6 @@
+<view class="w100p h100p bg-0008 pof z100 top0">
+  <image class='w392 h320 poa top50p mt-160 left50p ml-227 tfm-90' 
+    src='../../assets/img/change_shu.gif'>
+  </image>
+  <text class='fz36 color-fff lh36 poa top50p mt-180 right20  text-center tfm-90'>请逆时针旋转手机</text>
+</view>

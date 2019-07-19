@@ -1,0 +1,12 @@
+{
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText":"狸米判作业",
+  "backgroundColor": "#eeeeee",
+  "backgroundTextStyle": "light",
+  "usingComponents": {
+    "canvasdrawer": "/components/canvasdrawer/canvasdrawer"
+  },
+  "enablePullDownRefresh": false,
+  "disableScroll":true
+}

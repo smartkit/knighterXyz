@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view style='width:{{canvasWidth}}px; height:{{canvasHeight}}px'>
+  <image src="{{shareImage}}" style='width:{{canvasWidth}}px; height:{{canvasHeight}}px' ></image>
+	<canvasdrawer painting="{{painting}}" style='width:{{canvasWidth}}px; height:{{canvasHeight}}px'  bind:getImage="eventGetImage">
+	</canvasdrawer>
+	<!--
+  <button bindtap="btn_plus_one_tap_handler" type="primary" class='plus_one' plain='true'>再来一张</button>
+  -->
+</view>
+<include wx:if="{{isPainting}}" src="../../units/loading.wxml"/>

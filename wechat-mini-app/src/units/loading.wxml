@@ -1,0 +1,9 @@
+<view class="loading">
+   <view class='loading-mask'>
+    <view class='loading-ball loading-ball_purple'></view>  
+    <view class='loading-ball loading-ball_green'></view>
+    <text class='w100p text-center poa top129 fz28 lh28 color-fff pingfang-regular'>正在奋力判题中 ...</text>
+  </view> 
+  <!-- <image class='w130 h50' src='../../assets/icon/tbloading.gif'></image> -->
+</view>
+ 

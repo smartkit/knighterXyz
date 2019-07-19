@@ -1,0 +1,22 @@
+.share-image {
+  width: 320rpx;
+  height: 504rpx;
+  /*margin: 0 75rpx;*/
+  border: 0px solid black;
+}
+
+button {
+  margin-top: 20rpx;
+}
+
+.plus_one {
+position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+page{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

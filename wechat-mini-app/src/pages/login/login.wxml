@@ -1,0 +1,9 @@
+<view class='ml70 mr70 ovh'>
+  <text class='pingfang-bold fz60 color-333 text-left mt92 mb90 db fwb'>请授权获取<text class='color-32a'>用户信息</text></text>
+   <!-- disabled='{{!canClick}}' -->
+  <view class='bor-max fz36 bg-32a text-center color-fff h95 lh95 hide-after ' 
+    catch:tap='onBtnNextStep'>
+    同意
+  </view>
+  
+</view>

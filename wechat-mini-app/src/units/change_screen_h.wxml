@@ -1,0 +1,6 @@
+<view class="w100p h100p bg-0008 pof z100 top0">
+  <image class='w392 h320 poa top320 left50p ml-196' 
+    src='../../assets/img/change_heng.gif'>
+  </image>
+  <text class='fz36 color-fff lh36 poa top696 w100p text-center'>请顺时针旋转手机</text>
+</view>

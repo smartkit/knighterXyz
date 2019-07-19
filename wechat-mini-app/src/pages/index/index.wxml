@@ -1,0 +1,12 @@
+<!--
+<view>
+<button class="btn_instruction"  bindtap="onInstructionBtnClick" type="primary" plain='true'/>
+<button class="image_picker" bindtap="onImagePickerBtnClick" type="primary" plain='true'/>
+</view>
+-->
+<view class='container-all'>
+    <button  bindtap="onInstructionBtnClick" type="primary" plain='true'>ABOUT</button>
+    <button  bindtap="onInstructionBtnClick" type="primary" plain='true'>SOUND</button>
+    <canvas id="easel" canvas-id="easel" width="100%px" height="100%px" style="border:1px solid #000000;display:block">
+	</canvas>
+</view>

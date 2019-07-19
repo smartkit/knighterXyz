@@ -1,0 +1,12 @@
+import './js/libs/weapp-adapter'
+import './js/libs/symbol'
+
+// import './js/createjs-2015-wx'
+import './js/createjs-1.0-wx'
+import './js/WXGraphics'
+import './js/WXStageGL'
+import './js/WXLoader'
+import './js/service'
+import './js/view'
+import './js/createjs-wx-touch'
+import './js/main'
